@@ -5,12 +5,14 @@
 
 
 
-<h2>Sistem</h2>
-AuroraX aşağıdaki Linux dağıtımlarında çalışacak şekilde test edilmiştir.
-<ul>
-	<li>(Ubuntu)</li>
-</ul>
-Diğer dağıtımların çalışması muhtemeldir, ancak tamamen test edilmemiştir.
+<h1>AuroraX</h1>
+<br>
+<p>Yapımcı:Mert Can</p>
+<hr>
+<p>
+Açık kaynak bir şekilde paylaşma nedenim; "Artık shell script ile ilgilenmiyorum. Çok sıktı."<br>
+Script yapma mantığını kavramak isteyen, script yapmak isteyen kişiler için bir umut olabilir.<br>
+<b>Kullanmak isteyen herkes kullanabilir. Artık piyasada yeni geliştiriciler görmek istiyorum.</b></p>
 <hr>
 <h2>Sosyal Medya</h2>
 <ul>
