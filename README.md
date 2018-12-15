@@ -1,5 +1,5 @@
  AuroraX Multi Tools Script                                    
- Türkçe (TR)                                                    
+ <strong>Türkçe (TR)</strong>                                                    
                                                                 
  Önemli Not: Bu dosya ile yapılan oynamalar sonucu ortaya çıkan, 
  sorunlardan yapımcı sorumlu değildir. Ortaya çıkan sorunlar,  
