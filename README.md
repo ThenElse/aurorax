@@ -1,3 +1,7 @@
+
+<img src="https://i.hizliresim.com/P1o4ZQ.png" alt="logo"/>
+
+
  AuroraX Multi Tools Script                                    
  <strong>Türkçe (TR)</strong>                                                    
                                                                 
@@ -7,9 +11,4 @@
                                                                
  Sorularınız ve önerileriniz için ziyaret edin;                 
               https://facebook.com/elsethen                           
-                                                               
- @paket      Aurorax Multi Tools Script                        
- @yapımcı    Can Mert (elsethen.org)                           
- @copyright  Copyright (c) İkizlerBilisim 2018-2019            
- @versiyon   1.0.0                                                
- @link       https://elsethen.org    
+<img src="ornek.jpg" alt="Örnek Resim"/>
