@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^file\.aurorax\.sh$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.file\.aurorax\.sh$
+RewriteRule ^/?$ "http\:\/\/aurorax\.sh\/file" [R=301,L]
+
