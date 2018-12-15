@@ -6,7 +6,7 @@
  oynayan kişi tarafından düzeltilmelidir.                      
                                                                
  Sorularınız ve önerileriniz için ziyaret edin;                 
-              https://aurorax.sh                               
+              https://facebook.com/elsethen                           
                                                                
  @paket      Aurorax Multi Tools Script                        
  @yapımcı    Can Mert (elsethen.org)                           
