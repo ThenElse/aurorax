@@ -1,5 +1,5 @@
 
-<img src="https://i.hizliresim.com/P1o4ZQ.png" alt="logo"/>
+<img src="http://router.elsethen.org/aurora-logo.png" alt="logo"/>
 
 
  AuroraX Multi Tools Script                                    
