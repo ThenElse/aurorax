@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Çok Yakında !</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div {
+text-align: center;
+font-size: 40px;
+margin-top:90px;
+color: red;
+}
+</style>
+</head>
+<body>
+
+<div id="gerisayim"></div>
+
+<script>
+
+var countDownDate = new Date("01 01 2019 00:00").getTime();
+
+var x = setInterval(function() {
+
+
+var now = new Date().getTime();
+
+
+var distance = countDownDate - now;
+
+
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+document.getElementById("gerisayim").innerHTML = days + "gün " + hours + "saat "
++ minutes + "dakika " + seconds + "saniye ";
+
+
+if (distance < 0) {
+clearInterval(x);
+document.getElementById("gerisayim").innerHTML = "HoşGeldin Yeni Yıl.";
+}
+}, 1000);
+
+</script>
+
+</body>
+</html>
+

