@@ -11,4 +11,4 @@
                                                                
  Sorularınız ve önerileriniz için ziyaret edin;                 
               https://facebook.com/elsethen                           
-<img src="ornek.jpg" alt="Örnek Resim"/>
+
