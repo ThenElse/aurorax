@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+#RouterScript.ga
+#
+
+case "$1" in
+start)
+cd /root/teamspeak3-server
+./ts3server_startscript.sh start inifile=ts3server.ini
+cd /root
+  ;;
+stop)
+cd /root/teamspeak3-server
+./ts3server_startscript.sh stop
+cd /root
+  ;;
+restart)
+cd /root/teamspeak3-server
+./ts3server_startscript.sh restart inifile=ts3server.ini
+cd /root
+  ;;
+status)
+cd /root/teamspeak3-server
+./ts3server_startscript.sh status
+cd /root
+  ;;
+*)
+  echo $"Usage: $0 {start|stop|restart|status}"
+  exit 2
+esac
+exit 0
